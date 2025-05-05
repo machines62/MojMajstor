@@ -20,7 +20,7 @@ public class CartActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        // 🔥 PRIMJENA TEME PRIJE prikaza layout-a
+        // PRIMJENA TEME PRIJE prikaza layout-a
         applyTheme();
 
         super.onCreate(savedInstanceState);
@@ -31,11 +31,11 @@ public class CartActivity extends AppCompatActivity {
 
         naruceneUsluge = CartManager.getInstance().getCartItems();
 
-        // Koristimo activated_1 koji poštuje boju teksta iz teme
+        // Activated_1 koji poštuje boju teksta iz teme
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_activated_1, naruceneUsluge);
         cartListView.setAdapter(adapter);
 
-        // 🔴 Dugme za brisanje korpe
+        // Dugme za brisanje korpe
         buttonClearCart.setOnClickListener(v -> {
             // Očisti listu u CartManager-u
             CartManager.getInstance().clearCart();
@@ -51,7 +51,7 @@ public class CartActivity extends AppCompatActivity {
         });
     }
 
-    // 🌙 Tema (Dark / Light) primjena
+    // Tema (Dark / Light) primjena
     private void applyTheme() {
         String theme = Prefs.getTheme(this);
         if ("dark".equals(theme)) {

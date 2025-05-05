@@ -12,7 +12,7 @@
         <item name="colorControlNormal">@android:color/white</item> <!-- BOJA IKONA (3 tačke) -->
     </style>
 
-    <!-- Stil za moderna dugmad -->
+    <!-- Stil za dugmad -->
     <style name="Widget.Button.Modern" parent="Widget.AppCompat.Button">
         <item name="android:backgroundTint">@color/colorPrimary</item>
         <item name="android:textColor">@android:color/white</item>

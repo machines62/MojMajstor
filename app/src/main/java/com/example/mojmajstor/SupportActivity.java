@@ -33,7 +33,7 @@ public class SupportActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        // 🔥 PRIMJENA TEME PRIJE prikaza layouta
+        // PROMJENA TEME PRIJE prikaza layouta
         applyTheme();
 
         super.onCreate(savedInstanceState);
@@ -71,7 +71,7 @@ public class SupportActivity extends AppCompatActivity {
         });
     }
 
-    // 🌙 Tema (Dark / Light) primjena
+    // Tema (Dark / Light) primjena
     private void applyTheme() {
         String theme = Prefs.getTheme(this);
         if ("dark".equals(theme)) {

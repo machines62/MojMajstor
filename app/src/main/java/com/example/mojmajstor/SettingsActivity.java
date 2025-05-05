@@ -14,7 +14,7 @@ public class SettingsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        // 🔥 PRIMJENI TEMU PRIJE UI
+        // PROMJENI TEMU PRIJE UI
         applyTheme();
 
         super.onCreate(savedInstanceState);
@@ -41,7 +41,7 @@ public class SettingsActivity extends AppCompatActivity {
         });
     }
 
-    // 🔧 PRIMIJENI TEMU PRIJE UI
+    // PROMIJENI TEMU PRIJE UI
     private void applyTheme() {
         String theme = Prefs.getTheme(this);
         if ("dark".equals(theme)) {
@@ -51,11 +51,8 @@ public class SettingsActivity extends AppCompatActivity {
         }
     }
 
-    // ✅ Kada se tema promijeni → restartuj sve aktivnosti (vrlo bitno za vizuelni refresh)
+    // Kada se tema promijeni → restartuj sve aktivnosti
     private void recreateAll() {
         recreate(); // samo SettingsActivity se restartuje
-
-        // Ako želiš, možeš ovde dodati i refresh drugih aktvinosti sa globalnim restartom
-        // Napredna verzija (nije obavezno): možeš dodati broadcast receiver ili flagove
     }
 }

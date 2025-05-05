@@ -32,7 +32,7 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        // 1️⃣ PRIMIJENI TEMU PRIJE UI (VAŽNO!)
+        // PRIMIJENA TEME PRIJE UI
         applyTheme();
 
         super.onCreate(savedInstanceState);
@@ -67,7 +67,7 @@ public class HomeActivity extends AppCompatActivity {
         });
     }
 
-    // 🟢 Funkcija za klik na uslugu
+    // Funkcija za klik na uslugu
     private void onUslugaClicked(String usluga) {
         // Pokreni MajstorProfilActivity i pošalji ime majstora
         Intent intent = new Intent(this, MajstorProfilActivity.class);
@@ -75,7 +75,7 @@ public class HomeActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    // 🟢 Meni (Logout, Korpa, Support, Profil, Settings)
+    // Meni (Logout, Korpa, Support, Profil, Settings)
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -113,7 +113,7 @@ public class HomeActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    // 🔥 VAŽNO! Primijeni temu na osnovu preferencija
+    // Promjena teme na osnovu preferencija
     private void applyTheme() {
         String theme = Prefs.getTheme(this);
         if (theme.equals("dark")) {

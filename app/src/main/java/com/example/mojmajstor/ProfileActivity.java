@@ -22,7 +22,7 @@ public class ProfileActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        // 🔥 PRIMJENA TEME PRIJE prikaza layout-a
+        // PROMJENA TEME PRIJE prikaza layout-a
         applyTheme();
 
         super.onCreate(savedInstanceState);
@@ -95,7 +95,7 @@ public class ProfileActivity extends AppCompatActivity {
         });
     }
 
-    // 🌙 Tema (Dark / Light) primjena
+    // Tema (Dark / Light) primjena
     private void applyTheme() {
         String theme = Prefs.getTheme(this);
         if ("dark".equals(theme)) {

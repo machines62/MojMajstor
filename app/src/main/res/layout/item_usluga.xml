@@ -15,7 +15,7 @@
         android:padding="16dp"
         android:gravity="center_vertical">
 
-        <!-- Placeholder ikonica (možeš staviti svoju sliku ako želiš kasnije) -->
+        <!-- Placeholder ikonica -->
         <ImageView
             android:id="@+id/imageViewUsluga"
             android:layout_width="40dp"

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6C63FF</color> <!-- Moderna plava -->
+    <color name="colorPrimary">#6C63FF</color> <!-- plava -->
     <color name="colorPrimaryDark">#5348C7</color> <!-- Tamnija plava -->
     <color name="colorAccent">#FF9800</color> <!-- Akcent boja (orange) -->
     <color name="colorBackground">#F5F7FA</color> <!-- Svijetla pozadina -->
-    <color name="colorText">#333333</color> <!-- Tekst boja (dodano sada) -->
+    <color name="colorText">#333333</color> <!-- Tekst boja -->
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
     <color name="colorInputText">#6C63FF</color> <!-- ljubičasta -->

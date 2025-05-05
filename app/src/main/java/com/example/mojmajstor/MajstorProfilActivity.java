@@ -18,7 +18,7 @@ public class MajstorProfilActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        // 🔥 PRIMJENA TEME PRIJE prikaza
+        // PROMJENA TEME PRIJE prikaza
         applyTheme();
 
         super.onCreate(savedInstanceState);
@@ -36,7 +36,7 @@ public class MajstorProfilActivity extends AppCompatActivity {
         String majstorIme = getIntent().getStringExtra("majstor_ime");
         textViewIme.setText("Majstor: " + majstorIme);
 
-        // Opis (možeš kasnije dodati svoj opis po želji)
+        // Opis majstora
         textViewOpis.setText("Iskusni " + majstorIme.toLowerCase() + " sa višegodišnjim iskustvom. Pouzdano i kvalitetno.");
 
         // Random cijena
@@ -52,14 +52,14 @@ public class MajstorProfilActivity extends AppCompatActivity {
         int broj = 100000 + random.nextInt(900000);
         textViewTelefon.setText("Telefon: 062/" + broj);
 
-        // ➡️ Dodavanje u korpu
+        // Dodavanje u korpu
         buttonDodajUKorpu.setOnClickListener(v -> {
             CartManager.getInstance().addItem(majstorIme);
             Toast.makeText(MajstorProfilActivity.this, majstorIme + " dodano u korpu!", Toast.LENGTH_SHORT).show();
         });
     }
 
-    // 🌙 Tema (Dark / Light) primjena
+    // Tema (Dark / Light) primjena
     private void applyTheme() {
         String theme = Prefs.getTheme(this);
         if ("dark".equals(theme)) {
