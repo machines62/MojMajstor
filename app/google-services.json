@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "621323854006",
+    "project_id": "mojmajstor-40a31",
+    "storage_bucket": "mojmajstor-40a31.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621323854006:android:9f346f65e7ea815ba60617",
+        "android_client_info": {
+          "package_name": "com.example.mojmajstor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8vwvi4VSWdeZ65Vq8V9vMTnx1s20_Hg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

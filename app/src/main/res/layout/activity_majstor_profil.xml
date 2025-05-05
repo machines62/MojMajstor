@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/textViewIme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Majstor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textViewOpis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opis"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/textViewCijena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cijena"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/textViewTelefon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefon"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/buttonDodajUKorpu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dodaj u korpu"
+        android:layout_marginTop="24dp" />
+
+
+</LinearLayout>

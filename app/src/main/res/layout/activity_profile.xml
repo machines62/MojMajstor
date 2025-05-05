@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Ime korisnika -->
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Korisnik: "
+            android:textStyle="bold" />
+
+        <!-- Email korisnika -->
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email:" />
+
+        <!-- Promjena lozinke -->
+        <Button
+            android:id="@+id/buttonResetPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Promijeni lozinku"
+            android:layout_marginTop="20dp" />
+
+        <!-- Pregled narudžbi -->
+        <Button
+            android:id="@+id/buttonNarudzbe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pregledaj narudžbe"
+            android:layout_marginTop="20dp" />
+
+        <!-- Odjava -->
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Odjava"
+            android:layout_marginTop="20dp" />
+
+        <!-- Brisanje racuna -->
+        <Button
+            android:id="@+id/buttonDeleteAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Obriši račun"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MojMajstor" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorText</item>
+        <item name="android:background">@color/colorBackground</item>
+        <item name="toolbarStyle">@style/CustomToolbar</item> <!-- Dodano za bijeli tekst u Toolbaru -->
+        <item name="colorControlNormal">@android:color/white</item> <!-- BOJA IKONA (3 tačke) -->
+    </style>
+
+    <!-- Stil za Toolbar bijeli naslov -->
+    <style name="CustomToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextColor">@android:color/white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="@string/menu_logout"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_cart"
+        android:title="@string/menu_cart"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_support"
+        android:title="Podrška"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_profile"
+        android:title="Profil"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Postavke"
+        android:showAsAction="never" />
+
+
+</menu>
