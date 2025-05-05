@@ -1,5 +1,5 @@
 <resources>
-    <color name="colorPrimary">#B388FF</color> <!-- Tamnija boja za toolbar -->
+    <color name="colorPrimary">#0AC205</color> <!-- Tamnija boja za toolbar -->
     <color name="colorPrimaryDark">#121212</color> <!-- Još tamnije za status bar -->
     <color name="colorAccent">#FF9800</color> <!-- Naglasak boja -->
     <color name="colorBackground">#121212</color> <!-- Pozadina kompletne aplikacije -->
